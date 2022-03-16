@@ -1,5 +1,5 @@
 body{
-    background: #7DB6BF;
+    background: #c2ccd0;
 }
 img.banner {
     width: 1366px;
@@ -10,4 +10,11 @@ iframe.video {
     height: 500px;
 }
 
-ul,a.zhihu:hover   {color:green;}
+a.zhihu:hover{
+    color:green;
+}
+a.music:hover{
+    color:green;
+}a.next:hover{
+     color:green;
+ }
