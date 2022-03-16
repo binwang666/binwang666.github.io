@@ -1,8 +1,14 @@
-a.zhihu:hover{
+a:hover{
     color:green;
 }
-a.music:hover{
-    color:green;
-}a.next:hover{
-     color:green;
- }
+body{
+    background: #c2ccd0;
+}
+img.banner {
+    width: 1366px;
+    height: 100px;
+}
+iframe.video {
+    width: 750px;
+    height: 500px;
+}
