@@ -1,10 +1,13 @@
-aside,footer{
-    color: green;
+body{
+    background: #7DB6BF;
 }
-header{
+img.banner {
+    width: 1366px;
+    height: 100px;
+}
+iframe.video {
+    width: 750px;
+    height: 500px;
 }
 
-header{
-    width : 1024 px;
-    heigh : 100 px
-}
+ul,a.zhihu:hover   {color:green;}
