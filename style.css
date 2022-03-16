@@ -1,15 +1,3 @@
-body{
-    background: #c2ccd0;
-}
-img.banner {
-    width: 1366px;
-    height: 100px;
-}
-iframe.video {
-    width: 750px;
-    height: 500px;
-}
-
 a.zhihu:hover{
     color:green;
 }
