@@ -1,14 +1,58 @@
-a:hover{
-    color:green;
+a:hover {
+    color: green;
 }
-body{
-    background: #c2ccd0;
-}
-img.banner {
-    width: 1366px;
-    height: 100px;
-}
+
 iframe.video {
     width: 750px;
     height: 500px;
+}
+
+body, main {
+    display: flex;
+}
+
+body {
+    flex-direction: column;
+}
+
+main {
+    flex: auto;
+    flex-direction: row-reverse;
+}
+
+article {
+    flex: 3;
+}
+
+aside {
+    background: #7CB3D7;
+    flex: 1;
+}
+
+div.introduce {
+    background-image: linear-gradient(45deg, #7CB3D7, #816969);
+}
+
+div.banner {
+    position: relative;
+    display: inline-block;
+}
+
+div.bannerWord {
+    position: absolute;
+    bottom: 0;
+    color: red;
+    opacity: 0.6;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+header, footer {
+    align-self: center;
+}
+
+img.banner {
+    align-self: center;
+    width: 2048px;
+    height: 100px;
 }
