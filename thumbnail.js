@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         if (targetImage7.classList.contains("small")) {
             targetImage7.classList.remove("small")
         } else {
-            targetImage.classList.add("small");
+            targetImage7.classList.add("small");
         }
     })
     let targetImage8 = document.querySelector("#smart-image8");
